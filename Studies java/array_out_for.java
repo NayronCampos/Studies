@@ -1,4 +1,4 @@
-import.util.Arrays;
+import java.util.Arrays;
 
 public class array_out_for{
 
@@ -15,11 +15,12 @@ public class array_out_for{
         System.out.println("Hey " + nomes[i]);
         }
 
-        //Maneira 02 = array impresso metodo de import.util.Arrays
+        //Maneira 02 = array impresso metodo de import java.util.Arrays
 
         String[] sabores;
-        sabores = new String[] {"Chocolate", "Menta", "Banana"}
-
+        sabores = new String[] {"Chocolate", "Menta", "Banana"};
+        
+        System.out.println("The degust is: " + Arrays.toString(sabores));
     }
 
 }
